@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+  --color-primary: hsla(195, 66%, 35%, 1);
+  --color-primary-hover: hsla(185, 60%, 53%, 1);
+  --color-primary-active: hsla(200, 73%, 27%, 1);
+  --color-primary-disabled: hsla(195, 66%, 35%, 0.4);
+
+  /* Normal */
+  --color-normal: hsla(150, 2%, 24%, 1);
+  --color-normal-hover: hsla(120, 1%, 36%, 1);
+  --color-normal-active: hsla(0, 0%, 12%, 1);
+  --color-normal-disabled: hsla(150, 2%, 24%, 0.4);
+}
